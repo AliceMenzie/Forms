@@ -23,7 +23,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${montserrat.className}`}>
-        <main className="bg-slate-100flex flex-col justify-between md:flex-row min-h-screen min-w-screen md:items-center md:justify-center md:gap-y-2">
+        <main className="bg-slate-100 flex flex-col justify-between md:flex-row min-h-screen min-w-screen md:items-center md:justify-center md:gap-y-2">
           {children}
         </main>
       </body>
